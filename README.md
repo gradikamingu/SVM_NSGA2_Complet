@@ -1,7 +1,7 @@
-# SVM × NSGA-II — Prédiction du risque d'AVC
+# SVM × NSGA-II
 
 Optimisation bi-critère des hyperparamètres SVM par l'algorithme NSGA-II,
-appliquée à l'évaluation binaire du risque d'AVC.
+appliquée au classement binaire.
 
 ## Structure du projet
 
