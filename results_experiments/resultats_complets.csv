@@ -1,0 +1,29 @@
+﻿Dataset,Méthode,NFA,NFR,Sensibilité,Spécificité,Précision,F1,Exactitude,AUC,Params
+AVC,Régression Logistique (balanced),16,4,0.818,0.875,0.529,0.643,0.867,0.847,{'C': 0.1}
+AVC,SVM GridSearch (baseline),2,13,0.409,0.984,0.818,0.545,0.9,0.697,"{'C': 1, 'gamma': 0.01}"
+AVC,Random Forest (balanced),1,13,0.409,0.992,0.9,0.563,0.907,0.701,"{'max_depth': None, 'n_estimators': 200}"
+AVC,Gradient Boosting (scale_pos_weight),11,5,0.773,0.914,0.607,0.68,0.893,0.843,"{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100}"
+AVC,NSGA-II-SVM — Max Spécificité,1,13,0.4091,0.9922,0.9,0.5625,0.9067,0.701,"C+=158.7, C-=302.7, γ=0.00061"
+AVC,NSGA-II-SVM — Compromis F1,5,8,0.6364,0.9609,0.7368,0.6829,0.9133,0.799,"C+=341.9, C-=370.1, γ=0.00524"
+AVC,NSGA-II-SVM — Max Sensibilité,16,4,0.8182,0.875,0.5294,0.6429,0.8667,0.847,"C+=1947.4, C-=363.0, γ=0.00053"
+Breast Cancer,Régression Logistique (balanced),0,0,1.0,1.0,1.0,1.0,1.0,1.0,{'C': 0.1}
+Breast Cancer,SVM GridSearch (baseline),0,2,0.938,1.0,1.0,0.968,0.977,0.969,"{'C': 1, 'gamma': 0.01}"
+Breast Cancer,Random Forest (balanced),0,1,0.969,1.0,1.0,0.984,0.988,0.984,"{'max_depth': None, 'n_estimators': 200}"
+Breast Cancer,Gradient Boosting (scale_pos_weight),0,1,0.969,1.0,1.0,0.984,0.988,0.984,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}"
+Breast Cancer,NSGA-II-SVM — Max Spécificité,0,0,1.0,1.0,1.0,1.0,1.0,1.0,"C+=32.8, C-=225.1, γ=0.04758"
+Breast Cancer,NSGA-II-SVM — Compromis F1,0,0,1.0,1.0,1.0,1.0,1.0,1.0,"C+=32.8, C-=225.1, γ=0.04758"
+Breast Cancer,NSGA-II-SVM — Max Sensibilité,2,0,1.0,0.963,0.9412,0.9697,0.9767,0.982,"C+=75.6, C-=203.5, γ=0.02303"
+Diabetes,Régression Logistique (balanced),15,5,0.875,0.803,0.7,0.778,0.828,0.839,{'C': 1}
+Diabetes,SVM GridSearch (baseline),7,9,0.775,0.908,0.816,0.795,0.862,0.841,"{'C': 500, 'gamma': 0.001}"
+Diabetes,Random Forest (balanced),6,9,0.775,0.921,0.838,0.805,0.871,0.848,"{'max_depth': 10, 'n_estimators': 200}"
+Diabetes,Gradient Boosting (scale_pos_weight),10,7,0.825,0.868,0.767,0.795,0.853,0.847,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}"
+Diabetes,NSGA-II-SVM — Max Spécificité,2,18,0.55,0.9737,0.9167,0.6875,0.8276,0.762,"C+=114.0, C-=310.4, γ=0.00013"
+Diabetes,NSGA-II-SVM — Compromis F1,14,3,0.925,0.8158,0.7255,0.8132,0.8534,0.87,"C+=1139.7, C-=498.5, γ=0.00205"
+Diabetes,NSGA-II-SVM — Max Sensibilité,57,0,1.0,0.25,0.4124,0.5839,0.5086,0.625,"C+=3104.4, C-=258.3, γ=0.00010"
+Fraud,Régression Logistique (balanced),5,0,1.0,0.989,0.286,0.444,0.989,0.994,{'C': 0.1}
+Fraud,SVM GridSearch (baseline),1,2,0.0,0.998,0.0,0.0,0.993,0.499,"{'C': 500, 'gamma': 0.001}"
+Fraud,Random Forest (balanced),0,2,0.0,1.0,0.0,0.0,0.996,0.5,"{'max_depth': None, 'n_estimators': 100}"
+Fraud,Gradient Boosting (scale_pos_weight),0,2,0.0,1.0,0.0,0.0,0.996,0.5,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 200}"
+Fraud,NSGA-II-SVM — Max Spécificité,4,0,1.0,0.9911,0.3333,0.5,0.9911,0.996,"C+=48163.5, C-=443.4, γ=0.00015"
+Fraud,NSGA-II-SVM — Compromis F1,4,0,1.0,0.9911,0.3333,0.5,0.9911,0.996,"C+=48163.5, C-=443.4, γ=0.00015"
+Fraud,NSGA-II-SVM — Max Sensibilité,4,0,1.0,0.9911,0.3333,0.5,0.9911,0.996,"C+=48163.5, C-=443.4, γ=0.00015"
